@@ -3,9 +3,6 @@
 #
 #
 #
-#Usage: three arguments should be set. -sample_barcode_file: should be the sample indexes file, -path_to_splitted_fastq: should be a path pointed to a directory where you want to store the resultant splited fastq files, -fastq_file: should be MGI read2 file
-# #python split_samples_L03_change_header_soft.py -sample_barcode_file /directflow/SCCGGroupShare/projects/ranzha/MGI/MGI_sequencing_sample_indexes.txt -path_to_splitted_fastq /directflow/SCCGGroupShare/projects/ranzha/MGI/L03_2/ -fastq_file /home/ranzha/MGI/V300037074_L03_read_2.fq.gz
-#
 #
 #
 #
@@ -98,3 +95,5 @@ if __name__ == '__main__':
 
 
 
+
+    #python split_samples_L03_change_header_soft.py -sample_barcode_file /directflow/SCCGGroupShare/projects/ranzha/MGI/MGI_sequencing_sample_indexes.txt --path_to_splitted_fastq /directflow/SCCGGroupShare/projects/ranzha/MGI/L03_2_s/ -fastq_file /home/ranzha/MGI/V300037074_L03_read_2.fq.gz
